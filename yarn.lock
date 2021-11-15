@@ -7,6 +7,37 @@
   resolved "http://registry.npm.souche-inc.com/@babel/standalone/download/@babel/standalone-7.16.3.tgz#7a546b4c8530a77b0db68158542552a803af7e03"
   integrity sha1-elRrTIUwp3sNtoFYVCVSqAOvfgM=
 
+"@types/prop-types@*":
+  version "15.7.4"
+  resolved "http://registry.npm.souche-inc.com/@types/prop-types/download/@types/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
+  integrity sha1-/PcgXCXf95Xuea8eMNosl5CAjxE=
+
+"@types/react-dom@^17.0.11":
+  version "17.0.11"
+  resolved "http://registry.npm.souche-inc.com/@types/react-dom/download/@types/react-dom-17.0.11.tgz#e1eadc3c5e86bdb5f7684e00274ae228e7bcc466"
+  integrity sha1-4ercPF6GvbX3aE4AJ0riKOe8xGY=
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@^17.0.34":
+  version "17.0.34"
+  resolved "http://registry.npm.souche-inc.com/@types/react/download/@types/react-17.0.34.tgz#797b66d359b692e3f19991b6b07e4b0c706c0102"
+  integrity sha1-eXtm01m2kuPxmZG2sH5LDHBsAQI=
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/scheduler@*":
+  version "0.16.2"
+  resolved "http://registry.npm.souche-inc.com/@types/scheduler/download/@types/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
+  integrity sha1-GmL4lSVyPd4kuhsBsJK/XfitTTk=
+
+csstype@^3.0.2:
+  version "3.0.9"
+  resolved "http://registry.npm.souche-inc.com/csstype/download/csstype-3.0.9.tgz#6410af31b26bd0520933d02cbc64fce9ce3fbf0b"
+  integrity sha1-ZBCvMbJr0FIJM9AsvGT86c4/vws=
+
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "http://registry.npm.souche-inc.com/js-tokens/download/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
