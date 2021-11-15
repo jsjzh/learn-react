@@ -1,25 +1,9 @@
 const app = document.getElementById("app");
 
-// ---------------------------「userEffect 陷阱」---------------------------
+// ---------------------------「Provider Consumer」---------------------------
 
 const App: React.FC = () => {
-  const [count, setCount] = React.useState(0);
-
-  const handleResize = () => {
-    console.log(`count is ${count}`);
-  };
-
-  React.useEffect(() => {
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  return (
-    <div className="App">
-      <button onClick={() => setCount(count + 1)}>+</button>
-      <h1>{count}</h1>
-    </div>
-  );
+  return <div>hello world</div>;
 };
 
 // ---------------------------「Provider Consumer」---------------------------
@@ -34,6 +18,28 @@ const App: React.FC = () => {
 //   return (
 //     <div ref={ref}>
 //       <ConsumerComp />
+//     </div>
+//   );
+// };
+
+// ---------------------------「userEffect 陷阱」---------------------------
+
+// const App: React.FC = () => {
+//   const [count, setCount] = React.useState(0);
+
+//   const handleResize = () => {
+//     console.log(`count is ${count}`);
+//   };
+
+//   React.useEffect(() => {
+//     window.addEventListener("resize", handleResize);
+//     return () => window.removeEventListener("resize", handleResize);
+//   }, []);
+
+//   return (
+//     <div className="App">
+//       <button onClick={() => setCount(count + 1)}>+</button>
+//       <h1>{count}</h1>
 //     </div>
 //   );
 // };
